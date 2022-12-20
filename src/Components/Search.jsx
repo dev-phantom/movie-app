@@ -5,7 +5,7 @@ const Search = () => {
                 Search
             </div>
             <div className="w-full px-2">
-                <input type="text"  className="w-full h-[34px] border-2 border-black"/>
+                <input type="text"  className="w-full h-[34px] tablet:h-[54px] border-2 border-black"/>
             </div>
         </div>
      );

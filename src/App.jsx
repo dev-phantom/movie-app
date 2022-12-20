@@ -6,7 +6,7 @@ import Search from "./Components/Search"
 function App() {
 
   return (
-    <div className="text-black"> 
+    <div className="text-black tablet:overflow-hidden"> 
       <nav>
         <Navbar />
       </nav>

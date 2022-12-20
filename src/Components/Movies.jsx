@@ -17,7 +17,6 @@ const Movies = () => {
       url: url,
     }).then((res) => {
       setResult(res.data);
-      console.log(res.data);
     });
   };
 
@@ -27,42 +26,65 @@ const Movies = () => {
       
       <div className="flex flex-row overflow-x-auto my-5 gap-4">
         <div
-          className="movie h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+          className="movie tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
         >
           {result.Title}
         </div>
         <div
-          className="movie h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+          className="movie tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
         >
           {result.Title}
         </div>
         <div
-          className="movie h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+          className="movie tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
         >
           {result.Title}
         </div>
+        <div
+          className="movie hidden lg:flex xl:flex tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+        >
+          {result.Title}
+        </div>
+        <div
+          className="movie hidden lg:flex xl:flex tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+        >
+          {result.Title}
+        </div>
+       
 
       </div>
       <h1 className="font-dmsan font-normal text-[20px]">{result.Genre}</h1>
       
       <div className="flex flex-row overflow-x-auto my-5 gap-4">
         <div
-          className="movie h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+          className="movie tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
         >
           {result.Title}
         </div>
         <div
-          className="movie h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+          className="movie tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
         >
           {result.Title}
         </div>
         <div
-          className="movie h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+          className="movie tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
         >
           {result.Title}
         </div>
+        <div
+          className="movie hidden lg:flex xl:flex tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+        >
+          {result.Title}
+        </div>
+        <div
+          className="movie hidden lg:flex xl:flex tablet:h-[300px] tablet:w-[300px] lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px] h-[200px] text-center w-[200px] font-extrabold aspect-square flex justify-center items-center bg-black text-white px-2 z-0 rounded-xl" 
+        >
+          {result.Title}
+        </div>
+       
 
       </div>
+     
       
     </div>
   );
