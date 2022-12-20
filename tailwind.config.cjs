@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
        backgroundImage: {
-        'rect': "url('./src/assets/Rectangle 5.png')",
+        'rect': "url('./src/assets/Rectangle.png')",
         
       },
       fontFamily: {
